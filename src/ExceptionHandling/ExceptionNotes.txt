@@ -1,0 +1,8 @@
+when an exception occurs jvm first check which method has caused exception
+and see if it has handling code or not if not present it removes the method from stack
+and repeats the above process meaning it sees which method has called the last method which
+has caused exception and see if it has handler or not and repeats the process till main method
+if main is not having the handler jvm itself handles the exception and submit
+it to one of its assistant default exception handler which basically
+prints the object information
+exception reason and stack trace
