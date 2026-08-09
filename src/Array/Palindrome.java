@@ -5,7 +5,7 @@ public class Palindrome
     public static void main(String[]args)
     {
         int []arr={5,10,15,10,5};
-        System.out.println(IsPalindrome(arr));
+        System.out.println("is this"+IsPalindrome(arr));
     }
     static boolean IsPalindrome(int []arr)
     {

@@ -1,5 +1,5 @@
 package Array;
-
+// for elements in ascending order
 public class Binary {
     static int binarySearch(int []arr,int search_ele)
     {
