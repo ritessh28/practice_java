@@ -25,7 +25,7 @@ public class Stringtokenizer {
             arr[j]=Integer.parseInt(st.nextToken());
         }
         System.out.println("sum is ="+sum);
-        // cause nosuchelementException if length is more and
+        // cause no such elementException if length is more and
         // user adds less values
         // suppose length=5 and user enter 10 20 30
         /*Exception in thread "main" java.util.NoSuchElementException

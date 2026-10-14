@@ -1,0 +1,24 @@
+package TwoDArray;
+
+import java.util.Arrays;
+
+public class SearchPosition {
+    public static void main(String[] args) {
+        int[][] arr = {
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}
+        };
+        System.out.println(Arrays.toString(searchPosition(arr,9)));
+    }
+
+    static int[] searchPosition(int[][] arr, int key) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                if (arr[i][j] == key)
+                    return new int[]{i, j};
+            }
+        }
+        return new int[]{-1,-1};
+    }
+}

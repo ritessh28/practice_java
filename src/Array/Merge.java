@@ -41,9 +41,9 @@ public class Merge {
 
     public static void main(String[]args)
     {
-        int []nums1={1,2,4,0,0,0};
-        int []nums2={2,5,6};
-        int n1=nums1.length/2;
+        int []nums1={1,2};
+        int []nums2={3,4};
+        int n1=nums1.length;
         int n2=nums2.length;
         System.out.println(n1);
 //        merge(nums1,n1,nums2,n2);

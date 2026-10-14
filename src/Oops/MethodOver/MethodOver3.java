@@ -17,6 +17,6 @@ public class MethodOver3 {
         Test t=new Test();
         t.m1(2,4.6f);
 //        t.m1(5,5);
-//        t.m1(4.5,8.9); compile time error ambigous method call
+        t.m1(4.5f,8); //compile time error ambigous method call
     }
 }

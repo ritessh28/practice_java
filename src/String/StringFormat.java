@@ -27,6 +27,7 @@ public class StringFormat {
         String s8=String.valueOf(60);
         String s9="    hello how w      ";
         System.out.println(s9.trim());
+        System.out.println(String.format("my name is %s and %s",s6,s7));
 
     }
 }

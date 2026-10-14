@@ -19,5 +19,7 @@ public class Clone {
         System.out.println(s1==str[0]);//using str without new keyword
         System.out.println(s1==str5[0]);//using copy of string without new keyword string
         System.out.println(Arrays.toString(str5));
+        System.out.println(str4==str1);
+        System.out.println(str4[0]==str1[0]);
     }
 }

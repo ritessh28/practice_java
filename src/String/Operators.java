@@ -1,6 +1,7 @@
 package String;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Operators {
     public static void main(String[]args)
@@ -8,7 +9,7 @@ public class Operators {
         System.out.println(+'a');
         System.out.println("a"+'b');
         System.out.println((char)('a'+3));
-        System.out.println((char)'b'+3);
+        System.out.println((char)('b' +3));
         int a=900;
         double d=a;
         byte b= (byte)a;
@@ -17,7 +18,7 @@ public class Operators {
         System.out.println(10+"a");
         //integer will be converted to Integer and calls toString()
         //at last it will be "10" + "a"
-        System.out.println(new Integer(56)+""+new ArrayList<>());
+        System.out.println(new Integer(56)+""+new ArrayList<>(Arrays.asList("goa","ramu")));
 //        System.out.println(new Integer(56)+new ArrayList<>());
         //we cannot add two complex values directly
         // instead we can add string in between them because java has accesibility for that

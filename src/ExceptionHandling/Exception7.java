@@ -8,19 +8,22 @@ public class Exception7 {
         try {
             System.out.println("Enter a number");
             int n=sc.nextInt();
-            System.out.println(10/n);
+//
+//            int []arr=new int[4];
+//            arr[5]=1;
             try {
                 System.out.println("Try again enter a new number");
                 n=sc.nextInt();
                 System.out.println(10 / n);
-            } catch (ArithmeticException e) {
+            }
+            catch (ArithmeticException e) {
                 System.out.println("inside Inner catch block");
                 System.out.println(e.getMessage());
             } finally {
                 System.out.println("program terminated successfully");
             }
         }
-        catch (IndexOutOfBoundsException e) {
+        catch (RuntimeException e) {
             System.out.println("inside outer catch block");
             System.out.println(e.getMessage());
         }

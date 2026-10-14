@@ -1,0 +1,11 @@
+Autoboxing:refers to converting primitive to wrapper class int to Integer
+      int a=200;
+       Integer b=a;
+       //behind the scene it does autoboxing like this => Integer b=Integer.valueOf(a);
+      // first it was Integer b=new Integer(a);=>deprecated
+Unboxing:converting wrapper class to primitive type Integer to int
+Integer x=500;
+        // or Integer x=Integer.valueOf(500);
+        // behind the scene the above thing happens
+        System.out.println(x);
+        int y=x;//unboxing

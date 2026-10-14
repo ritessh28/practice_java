@@ -7,7 +7,7 @@ class MultipleMethods
     }
     public void m1(double f)
     {
-        System.out.println("Inside float args method "+f);
+        System.out.println("Inside double args method "+f);
     }
     public void m1()
     {

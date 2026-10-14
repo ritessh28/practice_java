@@ -60,5 +60,7 @@ public class Hybrid1 {
         ((Mango)f1).type();
         Mango f2=(Mango)f1;
         f2.type();
+        Fruit f=new Fruit();
+        f.price();
     }
 }

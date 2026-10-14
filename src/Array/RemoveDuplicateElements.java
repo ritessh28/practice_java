@@ -1,5 +1,7 @@
 package Array;
 
+import java.util.Arrays;
+
 public class RemoveDuplicateElements {
     public static void main(String[]args)
     {
@@ -16,7 +18,6 @@ public class RemoveDuplicateElements {
                         arr1[k]=arr1[k+1];
                     }
                     size--;
-                    j--;
                 }
 
             }
@@ -25,6 +26,7 @@ public class RemoveDuplicateElements {
         {
             System.out.print(arr1[i]+" ");
         }
+        System.out.println(Arrays.toString(arr1));
 
     }
 }
