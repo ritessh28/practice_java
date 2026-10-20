@@ -9,7 +9,7 @@ public class MoveZeroesStart {
         int j=arr.length-1;
         while(i>=0)
         {
-            if(arr[i]==0)
+            if(arr[i]!=0)
             {
                 int temp=arr[i];
                 arr[i]=arr[j];

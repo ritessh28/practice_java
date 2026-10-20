@@ -13,6 +13,7 @@ public class HashmapsMethods {
         //put method adds as new entry if the specified key is not present in map
         //if key exits it replaces the value we provide in the value parameter and returns the value of replcaed value
        // System.out.println(map.put(103,"ramesh"));//returns rohit as the value rohit was previously present before replacing
+        System.out.println(map.values());
         System.out.println(map.containsKey(101));
         System.out.println(map.containsKey(103));//0(1) due to hashing key
         System.out.println(map.containsValue("ritesh"));//0(log n)

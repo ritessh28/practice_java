@@ -33,7 +33,9 @@ public class AutoBoxingUnboxing {
     {
         return x;
     }
-
+    Integer b1=10;
+    int c1=2;
+    int add=b1+c1;//b1.intvalue();
     static int getval(Integer n)// here if im passing primitive int its autoboxing n=Integer.valueOf(primitive)
     {
         return n;

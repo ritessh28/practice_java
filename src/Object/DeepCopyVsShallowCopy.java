@@ -29,7 +29,7 @@ class Student1
 }
 public class DeepCopyVsShallowCopy {
     public static void main(String[] args) {
-        Student1 s1=new Student1(20,"ritesh",new Marks(67));
+        Student1 s1=new Student1(20,                     "ritesh",new Marks(67));
         Student1 s2=Student1.ShallowCopy(s1);
         System.out.println(s1==s2);
         System.out.println(s1.marks==s2.marks);

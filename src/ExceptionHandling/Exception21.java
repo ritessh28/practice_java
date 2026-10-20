@@ -16,6 +16,7 @@ public class Exception21 {
         } catch (IOException e) {
 //            System.out.println(e);
             e.printStackTrace();
+
         }
 
     }

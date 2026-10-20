@@ -10,6 +10,7 @@ public class RemoveByValue {
 //        al.remove(12);
         System.out.println(al);
         al.remove(0);
+        al.remove(9);
         System.out.println(al);
     }
 }
