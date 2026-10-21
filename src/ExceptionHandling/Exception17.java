@@ -30,7 +30,7 @@ class Calculator
 //        PrintWriter out = new PrintWriter("abc.txt");
 //        out.println("ok");
 //        return a/b;
-        return a/b;
+        return a/0;
     }
 }
 public class Exception17 {

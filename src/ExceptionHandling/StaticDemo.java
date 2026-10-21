@@ -8,6 +8,7 @@ public class StaticDemo {
 
     public static void main(String[] args) {
         System.out.println("Inside main method");
+        m1();
     }
     static
     {

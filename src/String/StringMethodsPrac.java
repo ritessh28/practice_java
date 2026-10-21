@@ -49,6 +49,8 @@ public class StringMethodsPrac {
         byte b1='a';
         System.out.println(b1);
         System.out.println(s1.compareTo(s2));
+        System.out.println(s1.indexOf("r"));
+//        s1.compareToIgnoreCase()
 
 
     }

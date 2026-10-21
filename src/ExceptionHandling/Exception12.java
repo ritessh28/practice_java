@@ -27,23 +27,28 @@ public class Exception12 extends RuntimeException  {
             System.out.println(e.getMessage());
         }
         catch(ArithmeticException e){
+
             System.out.println(e.getMessage());
+            System.out.println("happy");
         }
 
     }
 }
 class Check extends Exception12
 {
-    KeyNotFoundException ke=new  KeyNotFoundException("key not found");
+//    KeyNotFoundException ke=new  KeyNotFoundException("key not found");
+      ArithmeticException ae= new ArithmeticException("divide by zero");
     public void display() throws KeyNotFoundException
     {
         try {
-            throw ke;
+//            throw ke;
+           throw ae;
         }
-        catch (KeyNotFoundException e)
+
+        catch (ArithmeticException e)
         {
             e.printStackTrace();
-            throw ke;
+            throw ae;
 
 
 
