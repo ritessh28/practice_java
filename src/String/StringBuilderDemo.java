@@ -10,8 +10,9 @@ public class StringBuilderDemo {
         sb.insert(0,'x'+1);
 //                               012345678910
         System.out.println(sb);//121abcdednull3
+//        sb.deleteCharAt();
         sb.delete(2,100);
-        System.out.println(sb);//12
+        System.out.println(sb);//12fl
 
     }
 

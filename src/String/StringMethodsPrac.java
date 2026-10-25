@@ -38,6 +38,7 @@ public class StringMethodsPrac {
         {
             System.out.println(s);
         }
+        System.out.println("xxxxxxxxxxxxx");
         char []arr={'1','2','3','4','s'};
         String str2=new String(arr);
         System.out.println(str2);

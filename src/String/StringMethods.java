@@ -40,6 +40,7 @@ public class StringMethods {
         // System.out.println(s1.strip());  // uniocode friendly
 
         //System.out.println(s1.repeat(3));
+        System.out.println("rrrrrrrrr");
          System.out.println(s1.replace("ity", "abc"));
          System.out.println(s1);
          System.out.println(s1.replace("ya", "ab"));
