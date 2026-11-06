@@ -6,7 +6,7 @@ public class Thread5 extends Thread {
         Thread5 t=new Thread5();
         t.start();
         System.out.println("main method");
-        t.start();
+//        t.start();
     }
 }
 

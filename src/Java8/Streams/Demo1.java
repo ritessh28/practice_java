@@ -3,21 +3,24 @@ package Java8.Streams;
 import java.util.*;
 import java.util.stream.Stream;
 
+
 public class Demo1 {
     public static void main(String[] args) {
         List<Integer> list =new ArrayList<>(List.of(10,20,30,40,50,99,300,401,509));
         Stream<Integer> stream=list.stream();
         stream=stream.filter(n->n>20);
-        stream=stream.filter(s->s%2==0);
+        stream=stream.filter(s->{
+                System.out.println("value"+s);
+                return s%2==0;});
         stream=stream.map(s->s+2);
         stream.forEach(s-> System.out.println(s));
 //        stream.forEach(System.out::println);
 
 
-        list.stream()
-                .filter(s->s>100)
-                .filter(s->s%2!=0)
-                .forEach(System.out::println);
+//        list.stream()
+//                .filter(s->s>100)
+//                .filter(s->s%2!=0)
+//                .forEach(System.out::println);
 
 
 

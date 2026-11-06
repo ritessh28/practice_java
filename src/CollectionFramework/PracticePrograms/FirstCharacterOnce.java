@@ -25,6 +25,6 @@ public class FirstCharacterOnce {
  }
 
     public static void main(String[] args) {
-        System.out.println(firstCharacter("daabbcc"));
+        System.out.println(firstCharacter("daabbdncc"));
     }
 }

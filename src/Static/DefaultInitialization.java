@@ -35,8 +35,8 @@ public class DefaultInitialization {
     {
 //        private int a;
 //        public int a-10;
-        int a;
-//        System.out.println(a);// gives compile time error because local variable should be initialized jvm does
+        int a=10;
+        System.out.println(a);// gives compile time error because local variable should be initialized jvm does
         // not provide default values to local variables
 
     }
@@ -48,17 +48,23 @@ public class DefaultInitialization {
     public static void main(String[] args) {
 //        System.out.println(DefaultInitialization.a);//static block executes because class is loaded at first time
         // at the above statement  when, a is initialized for first time
+
 //        System.out.println(DefaultInitialization.a);
         // static block is executed when the class is loaded for first time when we are accessing the variable
         // a for the second time as the above statement the static block doesn't execute once again
         // because it was already loaded first time when line 10 was executed
-//        DefaultInitialization obj=new DefaultInitialization();// class loaded but static block doesn't execute
-//        obj.m1();
+
+
+        DefaultInitialization obj=new DefaultInitialization();// class loaded but static block doesn't execute
+        //because the class has already loaded once and static block execute once only when class gets loaded
+        obj.m1();
 //        System.out.println(DefaultInitialization.s1);// class loaded
 //        System.out.println(DefaultInitialization.d);
+
         // even though static variable is final constant value cannot be changed its fixed still class loads because
         //main method is executed and to execute main method the class containing main method needs to be loaded
         // so at it is already loaded static block anyway executes for the above defaultinitialization class
+
 //        Demo d=new Demo();
         System.out.println(Demo.m);
         //DefaultInitialization class is loaded so it prints DE static block executed

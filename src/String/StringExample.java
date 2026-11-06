@@ -7,7 +7,8 @@ public class StringExample {
         Scanner sc=new Scanner(System.in);
         String s="ra";
         String s2=s+"ve";//heap
-        String s5="rave";
+        String s5=s2.intern();
+        System.out.println(s2==s5);
         System.out.println(s2);
         String s3=s2.intern();//scp
         System.out.println(s2==s3);
@@ -23,5 +24,6 @@ public class StringExample {
         System.out.println(k1==k2);
         System.out.println("enter a name:");
         n=sc.nextInt();
+
     }
 }
