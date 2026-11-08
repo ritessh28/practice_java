@@ -65,7 +65,7 @@ class Box4
 //solution to this problem
 //use wait in producer inside loop till the flag is true(condition) cause suppose if the flag is already true and it enters
 // the producer method body it assign/add new value in item and the previous value is overwritten so to avoid that check
-// condition that only if the flag is false meaning value it not present/null then only add value so what wait()
+// condition that only if the flag is false meaning value is not present/null then only add value so what wait()
 // basically does is release the monitor lock from a object and put the thread in waiting state it stays until another thread
 // wakes it up using notify
 // it wakes up the thread and change it state from waiting to blocked state not running because again after waiting
