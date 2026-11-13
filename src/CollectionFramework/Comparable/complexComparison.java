@@ -35,4 +35,5 @@ class Student1 implements Comparable<Student1> {
         return this.name.compareTo(other.name);
     }
     //enhanced version of compare to  if two student have same marks return the student with low lexicographical value
+    //based on name
 }
